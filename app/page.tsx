@@ -1,21 +1,20 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Fail fast, fail often.
       </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
+      <blockquote className="mb-4 border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
+        "Clean code always looks like it was written by someone who cares."
+        <cite className="block mt-2 text-sm text-gray-500 dark:text-gray-400 not-italic">
+          — Uncle Bob
+        </cite>
+      </blockquote>
       <div className="my-8">
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
