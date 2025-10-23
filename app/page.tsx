@@ -19,6 +19,13 @@ export default function Page() {
           <li>12+ years of full stack engineering experience</li>
           <li>i write code with neovim, tmux, ghostty, and opencode</li>
           <li>
+            i build with typescript,{" "}
+            <strong className="font-bold">effect</strong>, node, nestjs, react,
+            next.js, react native, expo, tailwindcss, base-ui, tanstack,
+            zustand, trpc, drizzle, react-hook-form, zod, better-auth,
+            storybook, vitest, playwright, framer motion, turborepo, biome
+          </li>
+          <li>
             worked on projects at scale for companies like uber, microsoft and
             publix
           </li>
