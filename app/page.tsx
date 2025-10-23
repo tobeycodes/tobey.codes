@@ -1,12 +1,11 @@
-import { BlogPosts } from "app/components/posts";
 import Image from "next/image";
 
 export default function Page() {
   return (
     <section>
       <Image
-        src="/logo.png"
-        alt="Tobey Codes Logo"
+        src="/avatar.png"
+        alt="tobeycodes avatar"
         width={200}
         height={200}
         className="mb-2 rounded-full mx-auto"

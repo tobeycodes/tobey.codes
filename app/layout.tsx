@@ -10,15 +10,15 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Tobey Codes",
-    template: "%s | Tobey Codes",
+    default: "tobeycodes",
+    template: "%s | tobeycodes",
   },
-  description: "Tobey Codes",
+  description: "tobeycodes",
   openGraph: {
-    title: "Tobey Codes",
-    description: "Tobey Codes",
+    title: "tobeycodes",
+    description: "tobeycodes",
     url: baseUrl,
-    siteName: "Tobey Codes",
+    siteName: "tobeycodes",
     locale: "en_US",
     type: "website",
   },
