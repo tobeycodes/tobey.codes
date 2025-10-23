@@ -1,19 +1,36 @@
 import { BlogPosts } from "app/components/posts";
+import Image from "next/image";
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Fail fast, fail often.
+      <Image
+        src="/logo.png"
+        alt="Tobey Codes Logo"
+        width={200}
+        height={200}
+        className="mb-2 rounded-full mx-auto"
+      />
+      <h1 className="mb-8 text-4xl font-semibold tracking-tighter text-center">
+        tobeycodes
       </h1>
-      <blockquote className="mb-4 border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-700 dark:text-gray-300">
-        "Clean code always looks like it was written by someone who cares."
-        <cite className="block mt-2 text-sm text-gray-500 dark:text-gray-400 not-italic">
-          — Uncle Bob
-        </cite>
-      </blockquote>
-      <div className="my-8">
-        <BlogPosts />
+      <div className="prose-lg mb-10 text-neutral-700 dark:text-neutral-300">
+        <ul className="list-disc list-inside space-y-1">
+          <li>12+ years of full stack engineering experience</li>
+          <li>i write code with neovim, tmux, ghostty, and opencode</li>
+          <li>
+            worked on projects at scale for companies like uber, microsoft and
+            publix
+          </li>
+          <li>passionate about open source</li>
+          <li>interested in crypto/web3</li>
+          <li>contributing to several projects in the solana ecosystem</li>
+          <li>currently building a software crypto wallet</li>
+          <li>
+            open to contract/freelance work or the right full-time role where i
+            truly believe in the product and can make real impact
+          </li>
+        </ul>
       </div>
     </section>
   );

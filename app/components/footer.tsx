@@ -18,7 +18,11 @@ function ArrowIcon() {
 export default function Footer() {
   return (
     <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <span className="text-lg font-semibold tracking-tighter dark:text-neutral-300">
+        tobey<strong className="font-bold dark:text-neutral-300">@</strong>
+        tobey.codes
+      </span>
+      <ul className="font-sm mt-2 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -39,6 +43,50 @@ export default function Footer() {
           >
             <ArrowIcon />
             <p className="ml-2 h-7">github</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitch.tv/tobeycodes"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">twitch</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://youtube.com/@tobeycodes"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">youtube</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://youtube.com/@tobeycodes"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">youtube</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://t.me/tobeycodes"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">telegram</p>
           </a>
         </li>
       </ul>
