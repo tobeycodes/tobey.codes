@@ -28,10 +28,18 @@ export default function Page() {
             worked on projects at scale for companies like uber, microsoft and
             publix
           </li>
-          <li>passionate about open source</li>
-          <li>interested in crypto/web3</li>
-          <li>contributing to several projects in the solana ecosystem</li>
-          <li>currently building a software crypto wallet</li>
+          <li>
+            founding engineer on web3 nft metaverse startup ($5mm nft sales at
+            launch, $10mm in series a)
+          </li>
+          <li>
+            passionate about open source and contributing to several projects in
+            the solana ecosystem
+          </li>
+          <li>
+            interested in crypto/web3 and currently building a software crypto
+            wallet
+          </li>
           <li>
             open to contract/freelance work or the right full-time role where i
             truly believe in the product and can make real impact
