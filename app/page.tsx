@@ -15,7 +15,7 @@ export default function Page() {
       </h1>
       <div className="prose-lg mb-10 text-neutral-700 dark:text-neutral-300">
         <ul className="list-disc list-inside space-y-1">
-          <li>12+ years of full stack engineering experience</li>
+          <li>software engineer with 12 years of experience</li>
           <li>i write code with neovim, tmux, ghostty, and opencode</li>
           <li>
             i build with typescript,{" "}
