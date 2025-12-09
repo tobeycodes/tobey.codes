@@ -17,7 +17,7 @@ function ArrowIcon() {
 
 export default function Footer() {
   return (
-    <footer className="mb-16">
+    <footer className="mb-8">
       <span className="text-lg font-semibold tracking-tighter dark:text-neutral-300">
         tobey<strong className="font-bold dark:text-neutral-300">@</strong>
         tobey.codes

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Footer from "./components/footer";
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
       <h1 className="mb-8 text-4xl font-semibold tracking-tighter text-center">
         tobeycodes
       </h1>
+      <Footer />
       <div className="prose-lg mb-10 text-neutral-700 dark:text-neutral-300">
         <ul className="list-disc list-inside space-y-1">
           <li>software engineer with 12 years of experience</li>
