@@ -33,12 +33,12 @@ export default function Page() {
               </a>
             </li>
             <li>
-              interested in optimizing developer workflows with ai/llms,
-              including agent-based systems, feedback loops, and automation
-            </li>
-            <li>
               care a lot about code quality tools, developer experience, and
               ci/cd pipelines
+            </li>
+            <li>
+              interested in optimizing developer workflows with ai/llms,
+              including agent-based systems, feedback loops, and automation
             </li>
             <li>
               interested in solana, particularly crypto banking, stablecoins,
