@@ -18,7 +18,7 @@ export default function Page() {
           <h2 className="text-lg font-medium mb-2">me</h2>
           <ul className="list-disc pl-5 space-y-1">
             <li>
-              software engineer with 13 years of experience building web and
+              software engineer with 15 years of experience building web and
               mobile applications
             </li>
             <li>
@@ -33,32 +33,39 @@ export default function Page() {
               </a>
             </li>
             <li>
-              care a lot about code quality tools, developer experience, and
-              ci/cd pipelines
-            </li>
-            <li>
               interested in optimizing developer workflows with ai/llms,
               including agent-based systems, feedback loops, and automation
             </li>
             <li>
-              interested in solana, particularly crypto banking, stablecoins,
-              rwa and yield bearing products
+              care a lot about code quality tools, developer experience, and
+              ci/cd pipelines
             </li>
             <li>editing code in ghostty, neovim, tmux, and opencode</li>
             <li>
-              building with typescript, react, next.js, react native, expo,
-              node, effect
+              building with effect, typescript, rust, react, next.js, tanstack,
+              react native, expo, bun
             </li>
             <li>
               using packages such as tailwindcss, base-ui, tanstack, zustand,
-              trpc, drizzle, react-hook-form, zod, better-auth, storybook,
-              vitest, playwright, framer motion, turborepo, biome
+              trpc, drizzle, zod, better-auth, storybook, vitest, playwright,
+              motion, turborepo, biome, convex, electric
             </li>
           </ul>
         </li>
         <li>
           <h2 className="text-lg font-medium mb-2">current</h2>
           <ul className="list-disc pl-5 space-y-1">
+            <li>
+              product engineer @{" "}
+              <a
+                href="https://altitude.xyz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+              >
+                altitude/squads
+              </a>
+            </li>
             <li>
               building an open source crypto wallet.{" "}
               <a
@@ -70,19 +77,15 @@ export default function Page() {
                 winner of the colosseum cypherpunk public goods award
               </a>
             </li>
-            <li>
-              helping the solana foundation to build and improve typescript
-              tooling on solana
-            </li>
-            <li>
-              looking for a full-time role as a staff software engineer at a
-              company where i can make real impact
-            </li>
           </ul>
         </li>
         <li>
           <h2 className="text-lg font-medium mb-2">past</h2>
           <ul className="list-disc pl-5 space-y-1">
+            <li>
+              helped the solana foundation to build and improve typescript
+              tooling on solana
+            </li>
             <li>
               founding engineer on ethereum nft metaverse web3 mmorpg game ($5mm
               nft sales at launch, $10mm in series a)
