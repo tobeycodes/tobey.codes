@@ -3,13 +3,6 @@ import Image from "next/image";
 export default function Page() {
   return (
     <section>
-      <Image
-        src="/avatar.png"
-        width={200}
-        height={200}
-        className="mb-2"
-        alt="tobeycodes avatar"
-      />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         tobeycodes
       </h1>
