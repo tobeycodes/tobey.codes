@@ -63,18 +63,7 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className="underline transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               >
-                altitude/squads
-              </a>
-            </li>
-            <li>
-              building an open source crypto wallet.{" "}
-              <a
-                href="https://arena.colosseum.org/projects/explore/samui-wallet"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-              >
-                winner of the colosseum cypherpunk public goods award
+                altitude
               </a>
             </li>
           </ul>
@@ -82,18 +71,6 @@ export default function Page() {
         <li>
           <h2 className="text-lg font-medium mb-2">past</h2>
           <ul className="list-disc pl-5 space-y-1">
-            <li>
-              helped the solana foundation to build and improve typescript
-              tooling on solana
-            </li>
-            <li>
-              founding engineer on ethereum nft metaverse web3 mmorpg game ($5mm
-              nft sales at launch, $10mm in series a)
-            </li>
-            <li>
-              graduate of solana turbine builders / advanced program, ackee
-              school of solana, rektoff solana rust security bootcamp
-            </li>
             <li>
               worked on projects at scale for companies like uber, microsoft,
               six flags and publix
